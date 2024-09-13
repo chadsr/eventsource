@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.7.0](https://github.com/chadsr/eventsource/compare/v1.6.4...v1.7.0) (2024-09-13)
+
+
+### Features
+
+* add custom loggers ([14c16b6](https://github.com/chadsr/eventsource/commit/14c16b6ad4033b16f96da4df8f1529bca2c01b2e))
+* add jsdocs and deprecate old fetch parameter ([58a73b5](https://github.com/chadsr/eventsource/commit/58a73b563ccd6689f74717279005940b2fc1697e))
+
+
+### Bug Fixes
+
+* add module type to package.json and use correct file ending for cjs ([f07ee9b](https://github.com/chadsr/eventsource/commit/f07ee9b6735c42844eb0112b82e47be70789aa7d))
+* add public flag to pipline publishing ([63f06b8](https://github.com/chadsr/eventsource/commit/63f06b83a00d1f9fa700e30f3201dbfc47da1d53))
+* bind custom fetch to globalThis ([1cb0504](https://github.com/chadsr/eventsource/commit/1cb050410f14a616b8471d90d22b207c5ab5fef4))
+* broken import in readme ([eaa57db](https://github.com/chadsr/eventsource/commit/eaa57dbc64dadae525f0aa848546f9b8201ff0ed))
+* bump version to 1.4.5 ([7c3a1a8](https://github.com/chadsr/eventsource/commit/7c3a1a82f40feb5191b5f9cab21a9e475708b219))
+* do not run package publish twice ([640eb32](https://github.com/chadsr/eventsource/commit/640eb3293e6e2b95f675936c9f78f5086156db50))
+* empty message yielded after only seeing a comment ([ad8eb89](https://github.com/chadsr/eventsource/commit/ad8eb89b52cf6ae98338638af91faf6ceb20b247))
+* link for globalThis.fetch ([b00a4f0](https://github.com/chadsr/eventsource/commit/b00a4f0f05763ff96bbff7a9ca8670268ea67b92))
+* link for globalThis.fetch ([8c71f2f](https://github.com/chadsr/eventsource/commit/8c71f2f8b0c1c30b0b9f6eb030094ddd2a764401))
+* misleading error message ([bcd1bbd](https://github.com/chadsr/eventsource/commit/bcd1bbd299828a9bda27c3e395f7318a7d5fece1))
+* **package:** define exports ([48d581d](https://github.com/chadsr/eventsource/commit/48d581da368b9c9a444de382f42bbcfa16688a8c))
+* release version with exports ([ce4c1d5](https://github.com/chadsr/eventsource/commit/ce4c1d568f64e6491ba1cf1363d91dfdf515f0b3))
+* stop reconnecting if the eventsource is closed ([c294aae](https://github.com/chadsr/eventsource/commit/c294aae4bb7562db50ff7ee5e8e71a079f08c5ae))
+
 ## [1.6.4](https://github.com/lukas-reining/eventsource/compare/v1.6.3...v1.6.4) (2024-09-06)
 
 
